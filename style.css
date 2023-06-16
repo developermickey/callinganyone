@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e4e4e4;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #e4e4e4;
+  font-family: Gilroy;
+}
+#page1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e4e4e4;
+  text-align: center;
+  margin-top: 40px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  position: relative;
+}
+nav .logo {
+  padding-top: 100px;
+}
+
+#page1 .navleft {
+  position: absolute;
+  top: -30px;
+  left: 5em;
+  width: 100px;
+  height: auto;
+}
+
+#page1 .navleftbottom {
+  position: absolute;
+  top: 350px;
+  right: 5em;
+  width: 170px;
+  height: auto;
+}
+
+#page1 .navrightbottom {
+  position: absolute;
+  top: 200px;
+  left: 13em;
+  width: 170px;
+  height: auto;
+}
+
+#page1 .navright {
+  position: absolute;
+  top: 50px;
+  right: 5em;
+  width: 100px;
+  height: auto;
+}
+.bottomcenter {
+  position: absolute;
+  top: 80vh;
+  width: 200px;
+  height: auto;
+  left: 45%;
+  z-index: 99;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+}
+.heading .head {
+  font-size: 52px;
+  color: rgb(246, 60, 39);
+}
+.heading .para {
+    font-size: 28px;
+    margin-top: 50px;
+}
+#page2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e4e4e4;
+  position: relative;
+  z-index: -1;
+}
+#page2 .navleft {
+ position: absolute;
+  top: -30px;
+  left: 5em;
+  width: 200px;
+  height: auto; 
+}
+
+#page2 .navright {
+  position: absolute;
+    top: 50px;
+    right: 5em;
+    width: 200px;
+    height: auto;
+}
